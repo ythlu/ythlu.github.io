@@ -1,0 +1,116 @@
+* {
+    font-family: verdana, sans-serif;
+    font-color: rgb(28, 28, 28);
+    a font-color: rgb(28, 28, 28);
+}
+
+
+/* column 定義區開始 */
+
+.col-frame-footer {
+    border-top: 1px solid rgb(28, 28, 28);
+    margin: 0px;
+    padding: 20px 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: rgb(28, 28, 28);
+    text-align: center;
+    display: absolute;
+}
+
+.col {
+    border: 0px solid rgb(28, 28, 28);
+    margin: 5px;
+    padding: 20px;
+    width: 500px;
+    line-height: 25px;
+    background-color: white;
+    font-size: 14px;
+    text-align: left;
+    color: rgb(28, 28, 28);
+    display: flex;
+}
+
+
+/* column 定義區結束 */
+
+
+/* Navbar 區開始 */
+
+.topnav {
+    border-bottom: 0px solid rgb(28, 28, 28);
+    overflow: hidden;
+    background-color: rgb(28, 28, 28);
+    display: absolute;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    ;
+    float: left;
+    display: flex;
+    color: White;
+    background-color: rgb(28, 28, 28) text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    color: rgb(215, 84, 85);
+    text-decoration: underline;
+}
+
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    color: rgb(215, 84, 85);
+}
+
+
+/* Navbar 區結束 */
+
+
+/* Footer 區開始 */
+
+footer {
+    padding: 30px 30px 40px 30px;
+}
+
+footer a {
+    color: black;
+}
+
+
+/* Footer 區結束 */
+
+
+/* FA 顏色定義區開始 */
+
+.fa-color-ctrl {
+    color: rgb(28, 28, 28) !important;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.fa-color-ctrl a:hover {
+    color: rgb(215, 84, 85);
+    text-decoration: underline;
+}
+
+
+/* Add a color to the active/current link */
+
+.fa-color-ctrl a.active {
+    color: rgb(215, 84, 85);
+}
+
+
+/* FA 顏色定義區結束 */
