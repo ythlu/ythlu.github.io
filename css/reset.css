@@ -22,3 +22,10 @@ span {
     margin: 0;
     padding: 0;
 }
+
+
+/* 清除文繞圖的現象 例如可用在footer */
+
+.clearfix {
+    clear: both;
+}
