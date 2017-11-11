@@ -3,7 +3,7 @@
             font-color: rgb(28, 28, 28);
             a font-color: rgb(28, 28, 28);
         }
-        /* column 定義區開始 */
+        /* container row column 定義區開始 */
 
         .container {
             margin: auto;
@@ -12,15 +12,28 @@
         }
 
         .col {
-            padding: 10px;
-            width: 380px;
+            border: 0px solid black;
+            padding: 25px;
+            width: 500px;
             line-height: 25px;
             background-color: white;
             font-size: 14px;
             text-align: stretch;
             color: rgb(28, 28, 28);
         }
-        /* column 定義區結束 */
+
+        .col-single {
+            border: 0px solid black;
+            padding: 25px;
+            width: 1000px;
+            min-height: 450px;
+            line-height: 25px;
+            background-color: white;
+            font-size: 14px;
+            text-align: stretch;
+            color: rgb(28, 28, 28);
+        }
+        /* container row column 定義區結束 */
         /* Navbar 區開始 */
         /* 
    reset nav下面的ul
