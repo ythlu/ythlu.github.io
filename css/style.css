@@ -5,34 +5,20 @@
 }
 
 
-/* Container區開始 */
+/* column 定義區開始 */
 
 .container {
     margin: auto;
     max-width: 100%;
-    height: initial;
-    display: flex;
 }
 
-
-/* Container 區結束 */
-
-
-/* 卡片區結束 */
-
-
-/* column 定義區開始 */
-
 .col {
-    border: 0px solid rgb(28, 28, 28);
-    margin: 5px;
-    padding: 20px;
-    max-width: 500px;
-    min-width: 400px;
+    padding: 10px;
+    width: 380px;
     line-height: 25px;
     background-color: white;
     font-size: 14px;
-    text-align: left;
+    text-align: stretch;
     color: rgb(28, 28, 28);
 }
 
@@ -66,7 +52,6 @@ nav ul {
 
 nav {
     flex-flow: row wrap;
-    justify-content: space-between;
     background-color: rgb(28, 28, 28);
     color: white;
     margin: auto;
